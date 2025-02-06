@@ -188,7 +188,7 @@ public class BetterAutocastVPE : Mod
         foreach (Map map in Find.Maps)
         {
             map.areaManager.AllAreas.RemoveAll(area =>
-                area is Area_IceCrystal or Area_SolarPinhole or Area_CraftTimeskip
+                area is Area_IceCrystal or Area_SolarPinhole or Area_LargeSolarPinhole or Area_CraftTimeskip
             );
 
             foreach (Pawn pawn in map.mapPawns.AllPawns)
