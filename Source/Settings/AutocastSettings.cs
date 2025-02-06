@@ -143,6 +143,8 @@ public class AutocastSettings : ModSettings
     public bool ShowCraftTimeskipArea;
 
     public bool ShowSolarPinholeArea;
+    
+    public bool ShowLargeSolarPinholeArea;
 
     public bool ShowIceCrystalArea;
 
@@ -320,6 +322,10 @@ public class AutocastSettings : ModSettings
         ShowSolarPinholeArea = true;
         #endregion Solar Pinhole
 
+        #region Large Solar Pinhole
+        ShowLargeSolarPinholeArea = true;
+        #endregion Large Solar Pinhole
+
         #region Ice Crystal
         ShowIceCrystalArea = true;
         #endregion Ice Crystal
@@ -481,6 +487,10 @@ public class AutocastSettings : ModSettings
         #region Solar Pinhole
         LookStruct(() => ShowSolarPinholeArea);
         #endregion Solar Pinhole
+        
+        #region Large Solar Pinhole
+        LookStruct(() => ShowLargeSolarPinholeArea);
+        #endregion Large Solar Pinhole
 
         #region Ice Crystal
         LookStruct(() => ShowIceCrystalArea);
