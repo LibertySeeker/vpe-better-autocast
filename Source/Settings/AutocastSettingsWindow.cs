@@ -777,7 +777,7 @@ public static class AutocastSettingsWindow
             #region Large Solar Pinhole
             if (AbilityHeader("VPE_SolarPinholeSunlamp", "dgrb.solarpinholeadditions"))
             {
-                Checkbox("ShowSolarPinholeArea", ref Settings.ShowSolarPinholeArea);
+                Checkbox("ShowLargeSolarPinholeArea", ref Settings.ShowLargeSolarPinholeArea);
             }
             #endregion Large Solar Pinhole
 
