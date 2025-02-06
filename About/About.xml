@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-  <packageId>dev.tobot.vpe.betterautocast</packageId>
+  <packageId>TM3.dev.tobot.vpe.betterautocast</packageId>
   <name>Better autocasting for Vanilla Psycasts Expanded</name>
   <authors>
     <li>NetzachSloth</li>
     <li>Toby</li>
+    <li>tm3</li>
   </authors>
   <description>Some changes to Vanilla Psycasts Expanded to reduce Micro Management and add functional autocasts.\n\n(Because I'm lazy, this description should always be considered out of date. Mechanics should be explained in-game in the mod settings)\n\nSteal Vitality\n	Auto move to target.\n	Add sensitivity scaling.\n	~Scaling set to caster sensitivity.~\n	Show undrafted.\n	Autocasts in this order, Prisoner, Slave, Colonist\nPsychic Guidance\n	Auto move to target.\n	~Scaling set to caster sensitivity.~\n	Autocasts on colonists.\n\nIf there's any more you think I should add, let me know.\n\nHaven't tested much for performance impact, but there shouldn't be too much. This only does its thing every 600 ticks. It checks all colony pawns for abilities, checks for valid targets, then schedules the cast job.</description>
   <supportedVersions>
@@ -12,7 +13,7 @@
     <li>1.5</li>
   </supportedVersions>
   <modVersion IgnoreIfNoMatchingField="True">5.1.0.0</modVersion>
-  <url>https://github.com/Toby222/vpe-better-autocast/</url>
+  <url>https://github.com/LibertySeeker/vpe-better-autocast/</url>
   <modDependencies/>
   <modDependenciesByVersion>
     <v1.4>
@@ -81,9 +82,11 @@
   <incompatibleWithByVersion>
     <v1.4>
       <li>NetzachSloth.BetterAutocastVPE</li>
+      <li>dev.tobot.vpe.betterautocast</li>
     </v1.4>
     <v1.5>
       <li>NetzachSloth.BetterAutocastVPE</li>
+      <li>dev.tobot.vpe.betterautocast</li>
     </v1.5>
   </incompatibleWithByVersion>
 </ModMetaData>
